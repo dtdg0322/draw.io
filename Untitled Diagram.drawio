@@ -129,6 +129,14 @@
             <mxPoint x="103.00000000000091" y="411" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="uWj-MNBkgqtjKmTD6WKT-198" edge="1" parent="1" source="uWj-MNBkgqtjKmTD6WKT-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="uWj-MNBkgqtjKmTD6WKT-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-11" y="825" />
+            </Array>
+            <mxPoint x="-11" y="520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="uWj-MNBkgqtjKmTD6WKT-76" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#68B92E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=23;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_postgresql_instance;fontFamily=Garamond;" value="DB1" vertex="1">
           <mxGeometry height="78" width="78" x="-50" y="360" as="geometry" />
         </mxCell>
@@ -140,15 +148,6 @@
             <Array as="points" />
             <mxPoint x="60" y="520" as="sourcePoint" />
             <mxPoint x="110" y="470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uWj-MNBkgqtjKmTD6WKT-94" edge="1" parent="1" source="uWj-MNBkgqtjKmTD6WKT-55" style="endArrow=none;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;" target="uWj-MNBkgqtjKmTD6WKT-76" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="-11" y="820" />
-            </Array>
-            <mxPoint x="-80" y="550" as="sourcePoint" />
-            <mxPoint x="-30" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uWj-MNBkgqtjKmTD6WKT-95" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;fontStyle=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;" value="SYSLOG&lt;br&gt;&lt;div&gt;XML&lt;/div&gt;&lt;div&gt;JSON&lt;/div&gt;" vertex="1">
