@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="JdRwDKX2bjXLf-mmz3ge">
+    <mxGraphModel dx="1542" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CezdOSpSZCmXYJ9q_Hd7-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;startArrow=classicThin;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.5" y="460" as="sourcePoint" />
+            <mxPoint x="399.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CezdOSpSZCmXYJ9q_Hd7-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ADBOS&lt;br&gt;A" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CezdOSpSZCmXYJ9q_Hd7-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="auth.api.nsfocus.com&lt;br&gt;B" vertex="1">
+          <mxGeometry height="30" width="60" x="570" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CezdOSpSZCmXYJ9q_Hd7-5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;startArrow=classicThin;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="599.5" y="460" as="sourcePoint" />
+            <mxPoint x="599.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CezdOSpSZCmXYJ9q_Hd7-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="240" as="sourcePoint" />
+            <mxPoint x="560" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CezdOSpSZCmXYJ9q_Hd7-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A 端口 随机&lt;br&gt;B 端口 5050" vertex="1">
+          <mxGeometry height="30" width="110" x="440" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CezdOSpSZCmXYJ9q_Hd7-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CezdOSpSZCmXYJ9q_Hd7-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="连接1 建立" vertex="1">
+          <mxGeometry height="30" width="60" x="465" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="CezdOSpSZCmXYJ9q_Hd7-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=classicThin;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="340" as="sourcePoint" />
+            <mxPoint x="560" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CezdOSpSZCmXYJ9q_Hd7-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="交换证书等信息" vertex="1">
+          <mxGeometry height="30" width="90" x="450" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="CezdOSpSZCmXYJ9q_Hd7-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="400" as="sourcePoint" />
+            <mxPoint x="560" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CezdOSpSZCmXYJ9q_Hd7-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 51, 51));&quot;&gt;不确定是否起连接2&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="440" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="CezdOSpSZCmXYJ9q_Hd7-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A 端口 随机&lt;div&gt;B 端口 5055？？&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="440" y="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
