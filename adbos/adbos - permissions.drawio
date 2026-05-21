@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="9ydTKMiMj07vQQfhuL36">
+    <mxGraphModel dx="1542" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AaLkWMqE56ixR7KJVd1U-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SE1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;SZ&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: normal;&quot;&gt;SMG&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SE 2&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SZ 2&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SMG 2&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="380" width="300" x="370" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="AaLkWMqE56ixR7KJVd1U-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="报表管理员" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="AaLkWMqE56ixR7KJVd1U-13" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="510" width="510" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AaLkWMqE56ixR7KJVd1U-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="管理员" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AaLkWMqE56ixR7KJVd1U-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="操作员" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="AaLkWMqE56ixR7KJVd1U-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="客户" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="AaLkWMqE56ixR7KJVd1U-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USER GROUP A" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="AaLkWMqE56ixR7KJVd1U-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1. 管理设备资源&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2. 仅查看清洗对象&lt;/div&gt;" vertex="1">
+          <mxGeometry height="380" width="250" x="670" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="AaLkWMqE56ixR7KJVd1U-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="870" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
