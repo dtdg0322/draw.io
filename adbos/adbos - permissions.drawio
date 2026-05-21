@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="9ydTKMiMj07vQQfhuL36">
-    <mxGraphModel dx="1542" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1341" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,9 +27,6 @@
         </mxCell>
         <mxCell id="AaLkWMqE56ixR7KJVd1U-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1. 管理设备资源&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2. 仅查看清洗对象&lt;/div&gt;" vertex="1">
           <mxGeometry height="380" width="250" x="670" y="990" as="geometry" />
-        </mxCell>
-        <mxCell id="AaLkWMqE56ixR7KJVd1U-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="460" y="870" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
