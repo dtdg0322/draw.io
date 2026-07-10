@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36">
+  <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
+    <mxGraphModel dx="1542" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vMoKx2VakWNn-orRUF1F-132" edge="1" parent="1" source="vMoKx2VakWNn-orRUF1F-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vMoKx2VakWNn-orRUF1F-147">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="705" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-133" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;boundedLbl=1;" value="序列化类&lt;br&gt;Serializers" vertex="1">
+          <mxGeometry height="60" width="88" x="411" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-134" edge="1" parent="1" source="vMoKx2VakWNn-orRUF1F-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="451" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-135" parent="1" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=2;fillColor=#FFFFCC" value="Web用户" vertex="1">
+          <mxGeometry height="60" width="90" x="406" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-136" edge="1" parent="1" source="vMoKx2VakWNn-orRUF1F-144" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#000000;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" target="vMoKx2VakWNn-orRUF1F-140" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="451" y="430" />
+              <mxPoint x="455" y="455" />
+            </Array>
+            <mxPoint x="451" y="410" as="sourcePoint" />
+            <mxPoint x="586" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-137" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="2. 获取策略关联的SZ&lt;br&gt;校验策略版本是否与设备匹配" vertex="1">
+          <mxGeometry height="30" width="194" x="452" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-138" edge="1" parent="1" source="vMoKx2VakWNn-orRUF1F-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vMoKx2VakWNn-orRUF1F-135">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="530" />
+              <mxPoint x="225" y="220" />
+            </Array>
+            <mxPoint x="285" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-139" edge="1" parent="1" source="vMoKx2VakWNn-orRUF1F-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="451" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-140" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="SZ设备版本" vertex="1">
+          <mxGeometry height="100" width="100" x="401" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-141" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="341" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-142" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="进入只读模式禁止操作&lt;br&gt;提示：&lt;br&gt;配置不一致，联系管理员" vertex="1">
+          <mxGeometry height="80" width="140" x="85" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-143" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;3. 获取策略版本对应的校验器校验输入&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="263" x="452" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-144" parent="1" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=2;fillColor=#FFFFFF;rounded=1;" value="群组/全局策略对象" vertex="1">
+          <mxGeometry height="80" width="118.5" x="391.75" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-145" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="1. 操作群组/全局策略&amp;nbsp; PUT/PATCH" vertex="1">
+          <mxGeometry height="30" width="140" x="452" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-146" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="446" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-147" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;strokeWidth=2;" value="PG" vertex="1">
+          <mxGeometry height="60" width="60" x="641" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-148" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0" value="用DRF serializers.Serializer实现&lt;div&gt;类似插件，和版本一一对应&lt;br&gt;策略以整个JSON格式校验及保存&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="190" x="60" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-149" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="261" y="790" as="sourcePoint" />
+            <mxPoint x="385" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-150" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Json格式保存" vertex="1">
+          <mxGeometry height="30" width="116.5" x="518.5" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-151" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="接口格式及&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;参数固定&lt;br&gt;策略数据为JSON类型&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="199" x="686" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="vMoKx2VakWNn-orRUF1F-152" edge="1" parent="1" source="vMoKx2VakWNn-orRUF1F-151" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="705" y="560" as="sourcePoint" />
+            <mxPoint x="525" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
